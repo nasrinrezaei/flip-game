@@ -1,0 +1,515 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?i62z1u');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?i62z1u#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?i62z1u') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?i62z1u') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?i62z1u##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="si-"], [class*=" si-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.si-chart {
+  &:before {
+    content: $si-chart; 
+  }
+}
+.si-graph {
+  &:before {
+    content: $si-graph; 
+  }
+}
+.si-activity-pentagon {
+  &:before {
+    content: $si-activity-pentagon; 
+  }
+}
+.si-activity {
+  &:before {
+    content: $si-activity; 
+  }
+}
+.si-google-search {
+  &:before {
+    content: $si-google-search; 
+  }
+}
+.si-telegram {
+  &:before {
+    content: $si-telegram; 
+  }
+}
+.si-instagram {
+  &:before {
+    content: $si-instagram; 
+  }
+}
+.si-google-ads {
+  &:before {
+    content: $si-google-ads; 
+  }
+}
+.si-add-teeth {
+  &:before {
+    content: $si-add-teeth; 
+  }
+}
+.si-teeth-close {
+  &:before {
+    content: $si-teeth-close; 
+  }
+}
+.si-teeth-need {
+  &:before {
+    content: $si-teeth-need; 
+  }
+}
+.si-document-download {
+  &:before {
+    content: $si-document-download; 
+  }
+}
+.si-menu-meatballs {
+  &:before {
+    content: $si-menu-meatballs; 
+  }
+}
+.si-menu-candy-box {
+  &:before {
+    content: $si-menu-candy-box; 
+  }
+}
+.si-category {
+  &:before {
+    content: $si-category; 
+  }
+}
+.si-text {
+  &:before {
+    content: $si-text; 
+  }
+}
+.si-bell {
+  &:before {
+    content: $si-bell; 
+  }
+}
+.si-filter {
+  &:before {
+    content: $si-filter; 
+  }
+}
+.si-filter-multiple {
+  &:before {
+    content: $si-filter-multiple; 
+  }
+}
+.si-lock {
+  &:before {
+    content: $si-lock; 
+  }
+}
+.si-logout {
+  &:before {
+    content: $si-logout; 
+  }
+}
+.si-tooth {
+  &:before {
+    content: $si-tooth; 
+  }
+}
+.si-dent {
+  &:before {
+    content: $si-dent; 
+  }
+}
+.si-home-line {
+  &:before {
+    content: $si-home-line; 
+  }
+}
+.si-mandible {
+  &:before {
+    content: $si-mandible; 
+  }
+}
+.si-mouth {
+  &:before {
+    content: $si-mouth; 
+  }
+}
+.si-maxilla {
+  &:before {
+    content: $si-maxilla; 
+  }
+}
+.si-tick-square {
+  &:before {
+    content: $si-tick-square; 
+  }
+}
+.si-rotate-right {
+  &:before {
+    content: $si-rotate-right; 
+  }
+}
+.si-search {
+  &:before {
+    content: $si-search; 
+  }
+}
+.si-sms {
+  &:before {
+    content: $si-sms; 
+  }
+}
+.si-email {
+  &:before {
+    content: $si-email; 
+  }
+}
+.si-received-calls {
+  &:before {
+    content: $si-received-calls; 
+  }
+}
+.si-missed-call {
+  &:before {
+    content: $si-missed-call; 
+  }
+}
+.si-succeed-call {
+  &:before {
+    content: $si-succeed-call; 
+  }
+}
+.si-calling {
+  &:before {
+    content: $si-calling; 
+  }
+}
+.si-call {
+  &:before {
+    content: $si-call; 
+  }
+}
+.si-delete {
+  &:before {
+    content: $si-delete; 
+  }
+}
+.si-hide {
+  &:before {
+    content: $si-hide; 
+  }
+}
+.si-show {
+  &:before {
+    content: $si-show; 
+  }
+}
+.si-edit {
+  &:before {
+    content: $si-edit; 
+  }
+}
+.si-pause {
+  &:before {
+    content: $si-pause; 
+  }
+}
+.si-upload {
+  &:before {
+    content: $si-upload; 
+  }
+}
+.si-two-layer-money {
+  &:before {
+    content: $si-two-layer-money; 
+  }
+}
+.si-money {
+  &:before {
+    content: $si-money; 
+  }
+}
+.si-dollar-square {
+  &:before {
+    content: $si-dollar-square; 
+  }
+}
+.si-dollar-circle {
+  &:before {
+    content: $si-dollar-circle; 
+  }
+}
+.si-setting {
+  &:before {
+    content: $si-setting; 
+  }
+}
+.si-reassign {
+  &:before {
+    content: $si-reassign; 
+  }
+}
+.si-doctor {
+  &:before {
+    content: $si-doctor; 
+  }
+}
+.si-folder {
+  &:before {
+    content: $si-folder; 
+  }
+}
+.si-two-people {
+  &:before {
+    content: $si-two-people; 
+  }
+}
+.si-profile-accepted {
+  &:before {
+    content: $si-profile-accepted; 
+  }
+}
+.si-profile-delete {
+  &:before {
+    content: $si-profile-delete; 
+  }
+}
+.si-group {
+  &:before {
+    content: $si-group; 
+  }
+}
+.si-profile-add {
+  &:before {
+    content: $si-profile-add; 
+  }
+}
+.si-profile {
+  &:before {
+    content: $si-profile; 
+  }
+}
+.si-profile-circle {
+  &:before {
+    content: $si-profile-circle; 
+  }
+}
+.si-profile-circle-fill {
+  &:before {
+    content: $si-profile-circle-fill; 
+  }
+}
+.si-profile-square {
+  &:before {
+    content: $si-profile-square; 
+  }
+}
+.si-profile-octagon {
+  &:before {
+    content: $si-profile-octagon; 
+  }
+}
+.si-calendar-tick {
+  &:before {
+    content: $si-calendar-tick; 
+  }
+}
+.si-calender-line {
+  &:before {
+    content: $si-calender-line; 
+  }
+}
+.si-document-minus {
+  &:before {
+    content: $si-document-minus; 
+  }
+}
+.si-card-line {
+  &:before {
+    content: $si-card-line; 
+  }
+}
+.si-document-align-center {
+  &:before {
+    content: $si-document-align-center; 
+  }
+}
+.si-document-align-right {
+  &:before {
+    content: $si-document-align-right; 
+  }
+}
+.si-document-align-left {
+  &:before {
+    content: $si-document-align-left; 
+  }
+}
+.si-calender {
+  &:before {
+    content: $si-calender; 
+  }
+}
+.si-calender-down {
+  &:before {
+    content: $si-calender-down; 
+  }
+}
+.si-calender-up {
+  &:before {
+    content: $si-calender-up; 
+  }
+}
+.si-down-square {
+  &:before {
+    content: $si-down-square; 
+  }
+}
+.si-up-square {
+  &:before {
+    content: $si-up-square; 
+  }
+}
+.si-add {
+  &:before {
+    content: $si-add; 
+  }
+}
+.si-minus {
+  &:before {
+    content: $si-minus; 
+  }
+}
+.si-tick {
+  &:before {
+    content: $si-tick; 
+  }
+}
+.si-right {
+  &:before {
+    content: $si-right; 
+  }
+}
+.si-angle-right {
+  &:before {
+    content: $si-angle-right; 
+  }
+}
+.si-two-angle-right {
+  &:before {
+    content: $si-two-angle-right; 
+  }
+}
+.si-two-angle-left {
+  &:before {
+    content: $si-two-angle-left; 
+  }
+}
+.si-angle-left {
+  &:before {
+    content: $si-angle-left; 
+  }
+}
+.si-angle-down {
+  &:before {
+    content: $si-angle-down; 
+  }
+}
+.si-angle-up {
+  &:before {
+    content: $si-angle-up; 
+  }
+}
+.si-close {
+  &:before {
+    content: $si-close; 
+  }
+}
+.si-warning {
+  &:before {
+    content: $si-warning; 
+  }
+}
+.si-information-circle {
+  &:before {
+    content: $si-information-circle; 
+  }
+}
+.si-close-circle {
+  &:before {
+    content: $si-close-circle; 
+  }
+}
+.si-clock {
+  &:before {
+    content: $si-clock; 
+  }
+}
+.si-time-circle {
+  &:before {
+    content: $si-time-circle; 
+  }
+}
+.si-website {
+  &:before {
+    content: $si-website; 
+  }
+}
+.si-location {
+  &:before {
+    content: $si-location; 
+  }
+}
+.si-send {
+  &:before {
+    content: $si-send; 
+  }
+}
+.si-numerical-star {
+  &:before {
+    content: $si-numerical-star; 
+  }
+}
+.si-card {
+  &:before {
+    content: $si-card; 
+  }
+}
+.si-card-earn {
+  &:before {
+    content: $si-card-earn; 
+  }
+}
+.si-wallet {
+  &:before {
+    content: $si-wallet; 
+  }
+}
+.si-microscope {
+  &:before {
+    content: $si-microscope; 
+  }
+}
+

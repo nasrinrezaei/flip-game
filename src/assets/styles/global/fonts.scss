@@ -1,0 +1,37 @@
+$fonts-path: "../../fonts";
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: 500;
+  src:
+  /* IE6-8 */
+  url("#{$fonts-path}/IRANSansXFaNum/woff2/IRANSansXFaNum-Medium.woff2") format("woff2"),
+  /* FF39+,Chrome36+, Opera24+*/
+  url("#{$fonts-path}/IRANSansXFaNum/woff/IRANSansXFaNum-Medium.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: bold;
+  src:
+  /* IE6-8 */
+  url("#{$fonts-path}/IRANSansXFaNum/woff2/IRANSansXFaNum-Bold.woff2") format("woff2"),
+  /* FF39+,Chrome36+, Opera24+*/
+  url("#{$fonts-path}/IRANSansXFaNum/woff/IRANSansXFaNum-Bold.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: normal;
+  src:
+  /* IE6-8 */
+  url("#{$fonts-path}/IRANSansXFaNum/woff2/IRANSansXFaNum-Regular.woff2") format("woff2"),
+  /* FF39+,Chrome36+, Opera24+*/
+  url("#{$fonts-path}/IRANSansXFaNum/woff/IRANSansXFaNum-Regular.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}

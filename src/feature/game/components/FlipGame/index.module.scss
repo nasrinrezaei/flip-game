@@ -1,0 +1,87 @@
+.flip-game {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.flip-game__movement-and-time-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flip-game__items-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.flip-game__movement-and-time-container-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.flip-game__movement-and-time-container-timer-time {
+    font-size: var(--size-16);
+}
+
+.flip-game__container {
+    display: flex;
+    justify-content: space-between;
+    // align-items: flex-end;
+}
+
+.flip-game__items-button {
+    // background-color: #c2fbd7;
+    border-radius: 100px;
+    // box-shadow:
+    //     rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    //     rgba(44, 187, 99, 0.15) 0 1px 2px,
+    //     rgba(44, 187, 99, 0.15) 0 2px 4px,
+    //     rgba(44, 187, 99, 0.15) 0 4px 8px,
+    //     rgba(44, 187, 99, 0.15) 0 8px 16px,
+    //     rgba(44, 187, 99, 0.15) 0 16px 32px;
+    // color: green;
+    cursor: pointer;
+    padding: 7px 20px;
+    text-align: center;
+    transition: all 250ms;
+    touch-action: manipulation;
+    border: 1px solid #7CB9E8;
+    color: #17507c;
+    background-color: white;
+}
+
+.flip-game-details {
+    flex: 0 0 50%;
+    max-width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
+}
+
+.flip-game-details-result {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: var(--font-24);
+    color: #36454F;
+
+}
+
+.flip-game-details-result-txt {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

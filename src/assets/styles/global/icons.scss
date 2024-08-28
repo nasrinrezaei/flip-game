@@ -1,0 +1,12 @@
+$icomoon-font-path: '../../fonts/senfify-icon/fonts';
+@import '../../fonts/senfify-icon/style.css';
+
+.si {
+  font-size: 1.5em;
+  display: inline-block;
+  vertical-align: middle;
+
+  &--lg {
+    font-size: 2em;
+  }
+}

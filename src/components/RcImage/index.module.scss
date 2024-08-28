@@ -1,0 +1,36 @@
+.rc-image {
+  overflow: hidden;
+  display: flex;
+
+
+}
+
+.rc-image--page-cover {
+  overflow: hidden;
+  position: relative;
+
+  img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+
+  iframe,
+  video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    object-fit: cover;
+    position: absolute;
+  }
+}
+
+.rc-image--cursor {
+  cursor: pointer;
+}

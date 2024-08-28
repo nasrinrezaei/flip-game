@@ -1,0 +1,187 @@
+// sizes
+@import '@/assets/styles/global/functions';
+
+$size-2: var(--size-2);
+$size-3: var(--size-3);
+$size-4: var(--size-4);
+$size-6: var(--size-6);
+$size-8: var(--size-8);
+$size-10: var(--size-10);
+$size-12: var(--size-12);
+$size-14: var(--size-14);
+$size-16: var(--size-16);
+$size-18: var(--size-18);
+$size-20: var(--size-20);
+$size-24: var(--size-24);
+$size-28: var(--size-28);
+$size-32: var(--size-32);
+$size-36: var(--size-36);
+$size-38: var(--size-38);
+$size-40: var(--size-40);
+$size-44: var(--size-44);
+$size-48: var(--size-48);
+$size-49: var(--size-49);
+$size-52: var(--size-52);
+$size-56: var(--size-56);
+$size-60: var(--size-60);
+$size-64: var(--size-64);
+$size-80: var(--size-80);
+$size-96: var(--size-96);
+$size-120: var(--size-120);
+
+// font sizes
+$font-10: var(--font-10);
+$font-12: var(--font-12);
+$font-14: var(--font-14);
+$font-16: var(--font-16);
+$font-18: var(--font-18);
+$font-22: var(--font-22);
+$font-32: var(--font-32);
+$font-48: var(--font-48);
+$font-64: var(--font-64);
+
+// // theme colors
+$white: var(--white);
+
+$primary: var(--primary);
+$primary-10: var(--blue-10);
+$primary-20: var(--blue-20);
+$primary-30: var(--blue-30);
+$primary-40: var(--blue-40);
+$primary-50: var(--blue-50);
+$primary-60: var(--blue-60);
+$primary-70: var(--blue-70);
+$primary-80: var(--blue-80);
+$primary-90: var(--blue-90);
+$primary-100: var(--blue-100);
+
+$secondary: var(--gray-80);
+$secondary-10: var(--gray-10);
+$secondary-20: var(--gray-20);
+$secondary-30: var(--gray-30);
+$secondary-40: var(--gray-40);
+$secondary-50: var(--gray-50);
+$secondary-60: var(--gray-60);
+$secondary-70: var(--gray-70);
+$secondary-80: var(--gray-80);
+$secondary-90: var(--gray-90);
+$secondary-100: var(--gray-100);
+
+$gray-10: var(--gray-10);
+$gray-20: var(--gray-20);
+$gray-30: var(--gray-30);
+$gray-40: var(--gray-40);
+$gray-50: var(--gray-50);
+$gray-60: var(--gray-60);
+$gray-70: var(--gray-70);
+$gray-80: var(--gray-80);
+$gray-90: var(--gray-90);
+$gray-100: var(--gray-100);
+
+$green: var(--green-50);
+$green-10: var(--green-10);
+$green-20: var(--green-20);
+$green-30: var(--green-30);
+$green-40: var(--green-40);
+$green-50: var(--green-50);
+$green-60: var(--green-60);
+$green-70: var(--green-70);
+$green-80: var(--green-80);
+$green-90: var(--green-90);
+$green-100: var(--green-100);
+
+$red: var(--red-60);
+$red-10: var(--red-10);
+$red-20: var(--red-20);
+$red-30: var(--red-30);
+$red-40: var(--red-40);
+$red-50: var(--red-50);
+$red-60: var(--red-60);
+$red-70: var(--red-70);
+$red-80: var(--red-80);
+$red-90: var(--red-90);
+$red-100: var(--red-100);
+
+// breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px,
+  xx: 1500px,
+);
+
+// // avatars
+
+// // icons
+
+// // badges
+
+// // labels
+
+// // buttons
+
+
+$button-size-sm: $size-32;
+$button-size-md: $size-38;
+$button-size-lg: $size-49;
+
+
+// inputs
+$input-size-sm: $size-40;
+$input-size-md: $size-48;
+$input-size-lg: $size-56;
+
+// // notifications
+
+// // loadings
+
+// $loading-size-xs: $size-12;
+// $loading-size-sm: $size-16;
+// $loading-size-md: $size-20;
+// $loading-size-lg: $size-24;
+// $loading-size-xl: $size-28;
+// $loading-size-xx: $size-32;
+
+// // headers
+
+// // checkboxes
+
+// // radios
+
+// // switches
+
+// // tabs
+
+// modals
+$modal-bg-color: $gray-10;
+$modal-backdrop-bg: rgba(black, 0.7);
+$modal-backdrop-blur: 1px;
+$modal-z-index: 999999 !default;
+$modal-size-xs: rem(300px);
+$modal-size-sm: rem(464px);
+$modal-size-md: rem(600px);
+$modal-size-lg: rem(888px);
+$modal-size-xl: rem(1000px);
+
+// // bottom sheets
+
+// // cards
+
+// //grid
+// $grid-columns: 12;
+// $grid-gutter-width: 16px;
+// $grid-gutter-width-lg: 16px;
+// $grid-gutter-width-min: 16px;
+// $grid-gutter-width-tiny: 8px;
+
+// $bi-side: right !default;
+
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1260px,
+//   xx: 1440px,
+// ) !default;
