@@ -82,6 +82,7 @@ export function FlipGame({ movementNumber = 40, totalTime = 1 }) {
         !selectedItem.selected &&
         !showAllCards &&
         !timeIsFinish &&
+        (!firstSelectedItem || firstSelectedItem !== selectedItem) &&
         selectItems(selectedItem)
       );
     },
@@ -127,7 +128,6 @@ export function FlipGame({ movementNumber = 40, totalTime = 1 }) {
       return true;
     }
   }, [timeIsFinish, totalMovement, arrayOfCards]);
-  console.log('IsStopped', isStopped);
   return (
     <div className={classes['flip-game__container']}>
       <div className={classes['flip-game']}>
