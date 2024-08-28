@@ -1,9 +1,8 @@
 import Card from './Card';
-import { useMemo } from 'react';
-import RcCountDown from '@/components/RcCountDown';
 import PropTypes from 'prop-types';
 import classes from './index.module.scss';
-import { memo, useEffect, useState, useRef, useCallback } from 'react';
+import RcCountDown from '@/components/RcCountDown';
+import { memo, useEffect, useState, useRef, useCallback, useMemo } from 'react';
 const originalArray = [
   { src: './src/assets/images/images/t1.jpeg', selected: false },
   { src: './src/assets/images/images/t2.jpeg', selected: false },

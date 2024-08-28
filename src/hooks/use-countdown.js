@@ -1,5 +1,4 @@
-import { useMemo } from 'react'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useMemo } from 'react'
 
 const getReturnValues = (countDown) => {
   const days = Math.floor(countDown / (1000 * 60 * 60 * 24))
