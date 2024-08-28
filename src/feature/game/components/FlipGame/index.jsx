@@ -86,7 +86,7 @@ export function FlipGame({ movementNumber = 40, totalTime = 1 }) {
         selectItems(selectedItem)
       );
     },
-    [selectItems, totalMovement, timeIsFinish, showAllCards, showAllCards]
+    [selectItems, totalMovement, timeIsFinish, showAllCards]
   );
   const restInitialGame = () => {
     setArrayOfCards(() =>
@@ -115,7 +115,7 @@ export function FlipGame({ movementNumber = 40, totalTime = 1 }) {
   };
   const onDoneAction = useCallback(() => {
     setTimeIsFinish(() => true);
-  }, [timeIsFinish]);
+  }, []);
   const isWinner = useMemo(() => {
     if (arrayOfCards.length > 0 && arrayOfCards?.every((item) => !!item.selected)) {
       setIsStopped(() => true);
